@@ -1,0 +1,1 @@
+This is the first project in The Odin Project, where I am writing html, using header, links, images, paragraphs and lists.
