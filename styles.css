@@ -7,6 +7,13 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: bisque;
+    font-weight: bold;
+}
+
 /* main page */
 #container {
     display: flex;
@@ -35,7 +42,7 @@ body {
 }
 
 #container ul li a {
-    text-decoration: none;
+    
     font-size: 36px;
     text-align: center;
     color: darkcyan;
@@ -48,3 +55,32 @@ h1 {
     text-align: center;
     margin: 40px 0;
 }
+
+.flexcontainer {
+    display: flex;
+    margin-bottom: 25px;
+}
+#back {
+    background-color: teal;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    
+}
+
+
+
+.hero, .recipe {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    padding: 20px 30px;
+    flex-wrap: wrap;
+}
+
+.right {
+    flex-basis: 350px;
+}
+
